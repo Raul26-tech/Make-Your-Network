@@ -73,11 +73,13 @@ li a:hover {
 }
 
 .text-box {
-    background: red;
+    float: right;
     height: 150px;
     font-family: 'Oswald', sans-serif;
     display: inline-block;
     font-size: 18px;
     align-items: center;
     text-align: left;
+    margin-top: 10em;
+    margin-right: 20px;
 }
