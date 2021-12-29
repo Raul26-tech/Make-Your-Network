@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    background: rgba(207, 205, 205, 0.767);
-}
-
 /*-----Header-------*/
 ul {
     width: 100vw;
@@ -70,4 +66,18 @@ li a:hover {
     font-weight: 700;
     font-size: 80px;
     text-shadow: 2px 2px 4px rgb(99, 97, 97);
+}
+
+.firt-letter:hover {
+    color: rgb(7, 41, 80);
+}
+
+.text-box {
+    background: red;
+    height: 200px;
+    font-family: 'Oswald', sans-serif;
+    display: inline-block;
+    font-size: 18px;
+    align-items: center;
+    text-align: left;
 }
