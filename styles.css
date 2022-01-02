@@ -4,82 +4,31 @@
     box-sizing: border-box;
 }
 
-/*-----Header-------*/
-ul {
-    width: 100vw;
-    height: 60px;
-    background-image: linear-gradient(
-        to right,
-        rgb(13, 13, 14),
-        rgba(26, 25, 25, 0.767)
-    );
-    padding: 15px;
+.content-body {
+    background: rgba(226, 225, 225, 0.89);
+    max-width: 900vw;
+    height: 100vh;
+}
+
+.img-body {
+    margin: 50px 15px 15px 450px;
+    box-shadow: 2px 2px 15px 5px rgb(211, 208, 208);
+    border-radius: 5px;
+}
+
+.button {
+    margin: -10px 15px 15px 450px;
+    width: 500px;
+    height: 50px;
     font-family: 'Oswald';
-}
-
-li {
-    display: inline;
-    text-align: center;
-    padding: 0 15px;
-}
-
-li a {
-    color: #fff;
-    text-decoration: none;
-    transition: 0.2s;
-    display: inline-block;
-}
-
-li a:hover {
-    color: rgb(89, 154, 228);
-}
-
-.sign-in {
-    padding: 5px 15px;
-    margin-top: -5px;
-}
-
-.sign-in:last-child {
-    float: right;
+    font-size: 20px;
+    box-shadow: 1px 2px 2px 5px rgb(211, 208, 208);
+    border-color: transparent;
+    transform: translateY(15px, 15px);
+    background: rgb(119, 182, 255);
 }
 
 .sign-up {
-    border: solid 1px rgb(14, 120, 241);
-    padding: 5px 15px;
-    margin-top: -5px;
-}
-
-.sign-up:last-child {
-    float: right;
-}
-
-/*-------Section-------*/
-
-#content {
-    max-width: 300vw;
-    margin: 80px 100px;
-    display: inline-block;
-}
-
-.content-box {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 700;
-    font-size: 80px;
-    text-shadow: 2px 2px 4px rgb(99, 97, 97);
-}
-
-.firt-letter:hover {
+    text-decoration: none;
     color: rgb(7, 41, 80);
-}
-
-.text-box {
-    float: right;
-    height: 150px;
-    font-family: 'Oswald', sans-serif;
-    display: inline-block;
-    font-size: 18px;
-    align-items: center;
-    text-align: left;
-    margin-top: 10em;
-    margin-right: 20px;
 }
