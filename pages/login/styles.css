@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*-----Header-------*/
+ul {
+    width: 100vw;
+    height: 60px;
+    background-image: linear-gradient(
+        to right,
+        rgb(13, 13, 14),
+        rgba(26, 25, 25, 0.767)
+    );
+    padding: 15px;
+    font-family: 'Oswald';
+}
+
+li {
+    display: inline;
+    text-align: center;
+    padding: 0 15px;
+}
+
+li a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s;
+    display: inline-block;
+}
+
+li a:hover {
+    color: rgb(89, 154, 228);
+}
+
+.sign-in {
+    padding: 5px 15px;
+    margin-top: -5px;
+}
+
+.sign-in:last-child {
+    float: right;
+}
+
+.sign-up {
+    border: solid 1px rgb(14, 120, 241);
+    padding: 5px 15px;
+    margin-top: -5px;
+}
+
+.sign-up:last-child {
+    float: right;
+}
+
+/*-------Section-------*/
+
+#content {
+    max-width: 300vw;
+    margin: 80px 100px;
+    display: inline-block;
+}
+
+.content-box {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    text-shadow: 2px 2px 4px rgb(99, 97, 97);
+}
+
+.firt-letter:hover {
+    color: rgb(7, 41, 80);
+}
+
+.text-box {
+    float: right;
+    height: 150px;
+    font-family: 'Oswald', sans-serif;
+    display: inline-block;
+    font-size: 18px;
+    align-items: center;
+    text-align: left;
+    margin-top: 10em;
+    margin-right: 20px;
+}
+
+
