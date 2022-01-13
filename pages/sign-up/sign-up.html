@@ -4,9 +4,70 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./styles.css" />
         <title>MYN</title>
     </head>
     <body>
-        Olá
+        <main>
+            <div class="content-box">
+                <div class="logo">
+                    <img
+                        class="division-content"
+                        src="../../img/MYN.gif"
+                        alt="img-logo"
+                    />
+                </div>
+                <form>
+                    <h1>Faça seu cadastro!</h1>
+                    <div class="single-input">
+                        <input class="input" type="text" id="nome" required />
+                        <label for="nome">Nome completo</label>
+                    </div>
+                    <div class="single-input">
+                        <input class="input" type="text" id="nome" required />
+                        <label for="nome">Username</label>
+                    </div>
+                    <div class="single-input">
+                        <input class="input" type="text" id="nome" required />
+                        <label for="nome">e-mail</label>
+                    </div>
+                    <div class="single-input">
+                        <input
+                            class="input"
+                            type="password"
+                            id="nome"
+                            required
+                        />
+                        <label for="nome">Senha</label>
+                    </div>
+                    <div class="single-input">
+                        <input
+                            class="input"
+                            type="password"
+                            id="nome"
+                            required
+                        />
+                        <label for="nome">Confirme sua senha</label>
+                    </div>
+                    <button class="button-submit" type="submit">
+                        Cadastrar
+                    </button>
+                    <button class="button-submit" type="submit">
+                        <a class="closed" href="../login/login.html">Voltar</a>
+                    </button>
+                </form>
+            </div>
+        </main>
     </body>
 </html>

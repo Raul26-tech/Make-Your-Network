@@ -46,7 +46,7 @@ h1 {
 form {
     width: 400px;
     position: absolute;
-    top: 20%;
+    top: 10%;
     left: 60%;
     font-family: 'Open Sans', sans-serif;
     color: rgba(0, 0, 0, 0.5);
@@ -88,6 +88,7 @@ form div.single-input .input:valid ~ label {
 }
 
 .button-submit {
+    margin-top: 15px;
     width: 30%;
     height: 30px;
     font-family: 'Open Sans', sans-serif;
@@ -104,4 +105,10 @@ form div.single-input .input:valid ~ label {
 .button-submit:focus {
     transform: translateY(5px);
     transition: 0.2s ease-in-out;
+}
+
+.closed {
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
 }
