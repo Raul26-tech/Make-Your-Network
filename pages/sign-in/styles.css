@@ -105,3 +105,9 @@ form div.single-input .input:valid ~ label {
     transform: translateY(5px);
     transition: 0.2s ease-in-out;
 }
+
+.closed {
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+}
