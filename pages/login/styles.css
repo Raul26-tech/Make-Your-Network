@@ -69,7 +69,7 @@ li a:hover {
 }
 
 .firt-letter:hover {
-    color: rgb(7, 41, 80);
+    color: rgb(44, 103, 231, 0.5);
 }
 
 .text-box {
@@ -101,5 +101,5 @@ li a:hover {
 }
 
 .content-footer:hover {
-    color: rgb(89, 154, 228);
+    color: rgb(44, 103, 231);
 }
