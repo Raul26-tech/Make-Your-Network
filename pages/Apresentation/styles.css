@@ -28,6 +28,10 @@
     background: rgb(184, 189, 194);
 }
 
+.button:hover {
+    background: rgb(125, 174, 231);
+}
+
 .sign-up {
     text-decoration: none;
     color: rgb(7, 41, 80);

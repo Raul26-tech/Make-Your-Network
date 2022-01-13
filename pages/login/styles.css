@@ -73,15 +73,33 @@ li a:hover {
 }
 
 .text-box {
-    float: right;
+    margin-top: 8.5em;
+    position: absolute;
     height: 150px;
     font-family: 'Oswald', sans-serif;
     display: inline-block;
     font-size: 18px;
     align-items: center;
     text-align: left;
-    margin-top: 10em;
     margin-right: 20px;
+    text-shadow: 2px 2px 4px rgb(175, 173, 173);
 }
 
+/*----Footer------*/
 
+.footer {
+    text-align: center;
+    width: 400px;
+    margin: 0 15px 5px 500px;
+    font-family: 'Oswald';
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+}
+
+.content-footer {
+    text-shadow: 2px 2px 4px rgb(175, 173, 173);
+}
+
+.content-footer:hover {
+    color: rgb(89, 154, 228);
+}
