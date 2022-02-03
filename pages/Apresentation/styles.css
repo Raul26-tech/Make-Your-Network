@@ -41,6 +41,7 @@
     font-size: 20px;
     box-shadow: 1px 2px 2px 5px rgb(211, 208, 208);
     border-color: transparent;
+    transform: translateY(15px, 15px);
     background: rgba(7, 49, 236, 0.9);
     border-radius: 5px;
 }
@@ -48,6 +49,10 @@
 .button:hover {
     background: rgb(125, 174, 231);
     color: rgba(7, 49, 236, 0.76);
+}
+
+.button:active {
+    transform: translateY(3px);
 }
 
 .button:active {
