@@ -49,6 +49,15 @@
     <img align="center" alt="React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
 </div> 
 
+<h3> Como usar ? 🤔</h3>
+
+1 - É muito simples, faça o clone do repositorio.<br>
+2 - Navegue até o diretorio em que você clonou o repositorio.<br>
+3 - Abra o diretório PAGES.<br>
+4 - Abra o diretorio APRESENTATION.<br>
+5 - Abra o arquivo Index.html no seu browser.<br>
+6 - Faça o acesso a rede, se cadastre e seja feliz !!!!
+
 <h2> Então isso é tudo</h2>
 
 Agradeço a todos !!!!
