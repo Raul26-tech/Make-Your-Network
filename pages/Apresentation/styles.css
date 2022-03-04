@@ -55,9 +55,6 @@
     transform: translateY(3px);
 }
 
-.button:active {
-    transform: translateY(3px);
-}
 
 .sign-up {
     text-decoration: none;
